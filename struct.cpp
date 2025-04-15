@@ -17,12 +17,16 @@ int main() {
      mhs.nama = "Abra";
      mhs.alamat = "Kasihan";
  
-     cout << "Masukkan NIM = ";
-     cin >> mhs.nim;
-     cout << "Masukkan NAMA = ";
-     cin >> mhs.nama;
-     cout << "Masukkan ALAMAT = ";
-     cin >> mhs.alamat;
+    cout << "Masukkan NIM = ";
+    cin >> mhs.nim;
+    cout << "Masukkan NAMA = ";
+    cin >> mhs.nama;
+    cout << "Masukkan ALAMAT = ";
+    cin >> mhs.alamat;
+
+    cout << "NIM = " << mhs.nim << endl;
+    cout << "NAMA = " << mhs.nama << endl;
+    cout << "ALAMAT = " << mhs.alamat << endl;
  
 
 }
