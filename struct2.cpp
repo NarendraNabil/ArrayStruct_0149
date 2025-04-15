@@ -24,4 +24,9 @@ int main() {
     cin >> mhs.alamat.kota;
     cout << "Masukkan ALAMAT DESA ";
     cin >> mhs.alamat.desa;
+
+    cout << "NIM = " << mhs.nim << endl;
+    cout << "NAMA = " << mhs.nama << endl;
+    cout << "ALAMAT DESA = " << mhs.alamat.desa << endl;
+    cout << "ALAMAT KOTA = " << mhs.alamat.kota << endl;
 }
