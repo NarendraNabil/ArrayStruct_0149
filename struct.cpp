@@ -12,4 +12,17 @@ int main() {
     //membuat object struct mahasiswa
     mahasiswa mhs;
 
+     //mengakses struct mahasiswa
+     mhs.nim = "2022014000";
+     mhs.nama = "Abra";
+     mhs.alamat = "Kasihan";
+ 
+     cout << "Masukkan NIM = ";
+     cin >> mhs.nim;
+     cout << "Masukkan NAMA = ";
+     cin >> mhs.nama;
+     cout << "Masukkan ALAMAT = ";
+     cin >> mhs.alamat;
+ 
+
 }
